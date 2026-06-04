@@ -7,9 +7,9 @@ import { MdAccessTime } from "react-icons/md";
 import { motion } from "motion/react";
 const LandingHeroSection = () => {
   return (
-    <div className="flex flex-col w-screen min-h-[70vh] justify-start items-center gap-6 px-4 py-10">
+    <div className="flex flex-col w-screen min-h-[60vh] justify-start items-center gap-6 px-4 py-10">
       <div className="h-70 w-90 lg:w-110 fixed top-10 left-0 lg:top-25 lg:left-100 bg-blue-100 blur-2xl shadow-2xl -z-100"></div>
-      <div className="text-sm text-green-800 font-medium bg-green-100 px-4 py-1 rounded-full">
+      <div className="text-xs text-center md:text-sm text-green-800 font-medium bg-green-100 px-4 py-1 rounded-full">
         Join 100+ early members already on the waitlist!
       </div>
       <h1 className="text-4xl font-bold lg:text-5xl text-center">

@@ -75,14 +75,14 @@ const LandingNavbar = () => {
           Our Ustaads
         </Link>
         <Link
-          to="build-in-public"
+          to="our-mission"
           spy={true}
           smooth={true}
           offset={-70}
           duration={500}
           className="cursor-pointer"
         >
-          Build in Public
+          Our Mission
         </Link>
       </div>
       {/* for small screens */}
@@ -130,7 +130,7 @@ const LandingNavbar = () => {
               Our Ustaads
             </Link>
             <Link
-              to="build-in-public"
+              to="our-mission"
               spy={true}
               smooth={true}
               offset={-70}
@@ -138,7 +138,7 @@ const LandingNavbar = () => {
               className="cursor-pointer"
               onClick={() => setIsMenuOpen(false)}
             >
-              Build in Public
+              Our Mission
             </Link>
           </motion.div>
         )}
