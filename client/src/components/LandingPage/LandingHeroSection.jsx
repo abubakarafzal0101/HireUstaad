@@ -31,7 +31,7 @@ const LandingHeroSection = () => {
         Pakistan ka pehla premium or reliable local home services platform.
         Verified and trusted professionals aek click par.
       </p>
-      <div className="flex gap-1 md:gap-2 lg:gap-4">
+      <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <input
           type="phone"
           placeholder="Enter your Phone number"
@@ -44,10 +44,17 @@ const LandingHeroSection = () => {
           Join Waitlist
         </motion.button>
       </div>
-      <div className="flex items-center gap-2 text-gray-900 cursor-pointer">
-        <IoChatboxEllipsesOutline className="text-lg" />
-        <div className="text-gray-700">Chat on WhatsApp</div>
-      </div>
+      <motion.div
+        className="flex items-center gap-2 text-gray-900 cursor-pointer  hover:text-green-800"
+        whileHover={{
+          backgroundColor: "rgba(59, 130, 246, 0.1)",
+        }}
+      >
+        <IoChatboxEllipsesOutline className="text-lg  " />
+        <div className="text-gray-700 hover:underline hover:text-green-800">
+          Chat on WhatsApp
+        </div>
+      </motion.div>
       <div className="grid grid-cols-2 md:grid-cols-4 items-center gap-8 md:gap-12 lg:gap-15  px-4  w-full  max-w-2xl mt-4 mg:mt-6 lg:mt-10">
         <div className="flex flex-col items-center gap-3">
           <MdOutlineVerified className="text-base md:text-2xl lg:text-3xl text-gray-800" />
